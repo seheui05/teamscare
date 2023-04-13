@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PDF Viewer</title>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <h2>팀즈케어 소개서</h2>
+
+      <div class="controls">
+        <button id="previous" class="previous">&laquo; Previous</button>
+        <p id="pageNumber">Page 1 of 1</p>
+        <button id="next" class="next">Next &raquo;</button>
+      </div>
+
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="can.js"></script>
+  </body>
+</html>
