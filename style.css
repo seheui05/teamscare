@@ -1,0 +1,31 @@
+#canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+#pageNumber {
+    display: inline;
+}
+
+.controls {
+    margin-bottom: 20px;
+  }
+
+.previous {
+    display: inline;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 15%;
+}
+
+.next {
+    display: inline;
+    background-color: #42A047;
+    color: white;
+    border-radius: 15%;
+}
+
+.center {
+    text-align: center;
+  }
